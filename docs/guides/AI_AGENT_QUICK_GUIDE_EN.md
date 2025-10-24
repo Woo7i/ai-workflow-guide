@@ -13,6 +13,7 @@ AI agents quickly understand project context through the **3-stage structure**:
 ## 📋 Story - "What to Build"
 
 ### Prompt Examples
+
 ```
 "Check overall project direction"
 "Tell me about backlog status"
@@ -21,11 +22,13 @@ AI agents quickly understand project context through the **3-stage structure**:
 ```
 
 ### Files to Check
+
 - `docs/project-management/backlog.md` - Overall backlog
 - `docs/project-management/sprints/` - Sprint plans
 - `docs/project-management/stories/` - Individual Stories
 
 ### Expected Response
+
 - Overall project goals and direction
 - Current Sprint status
 - Next Sprint plan
@@ -34,6 +37,7 @@ AI agents quickly understand project context through the **3-stage structure**:
 ## 🔄 Continuity - "How to Build"
 
 ### Prompt Examples
+
 ```
 "Understand current work context"
 "Where are we now?"
@@ -42,11 +46,13 @@ AI agents quickly understand project context through the **3-stage structure**:
 ```
 
 ### Files to Check
+
 - `docs/project-management/README.md` - Project overview
 - `docs/project-management/current-status.md` - System status
 - `docs/guides/AI_AGENT_QUICK_GUIDE.md` - This file
 
 ### Expected Response
+
 - Currently ongoing work
 - Next step plans
 - System current status
@@ -55,6 +61,7 @@ AI agents quickly understand project context through the **3-stage structure**:
 ## 💾 Backup - "What Has Been Completed"
 
 ### Prompt Examples
+
 ```
 "Review completed work"
 "How's the progress?"
@@ -63,10 +70,12 @@ AI agents quickly understand project context through the **3-stage structure**:
 ```
 
 ### Files to Check
+
 - `docs/project-management/progress-tracking.md` - Completion records
 - `docs/project-management/backlog.md` - Completion status indication
 
 ### Expected Response
+
 - Completed work list
 - Progress statistics
 - Connection points to next work
@@ -75,27 +84,35 @@ AI agents quickly understand project context through the **3-stage structure**:
 ## 🚀 Practical Usage
 
 ### 1. Project Start
+
 ```
 "Understand overall project situation"
 ```
+
 → Check Story + Continuity + Backup overall
 
 ### 2. Before Starting Work
+
 ```
 "Understand current work context"
 ```
+
 → Check Continuity-centered
 
 ### 3. After Work Completion
+
 ```
 "Update completion records"
 ```
+
 → Update Backup
 
 ### 4. Sprint Planning
+
 ```
 "Plan next Sprint"
 ```
+
 → Check Story-centered
 
 ## 📁 File Structure Understanding
@@ -113,36 +130,43 @@ docs/project-management/
 ## 🎭 AI Agent Persona Utilization
 
 ### PM (Product Manager)
+
 - **Activation**: "PRD", "Product Requirements", "Feature Specs", "Roadmap"
 - **Role**: Story-centered work (Overall direction)
 
 ### PO (Product Owner)
+
 - **Activation**: "Sprint", "Backlog", "Story", "Acceptance Criteria"
 - **Role**: Story + Continuity work (Plans and current status)
 
 ### Dev (Developer)
+
 - **Activation**: "Code", "Implementation", "Development", "API", "Component"
 - **Role**: Continuity + Backup work (Current work and completion records)
 
 ### QA (QA Engineer)
+
 - **Activation**: "Test", "Verification", "Quality", "QA", "Review"
 - **Role**: Backup-centered work (Completed work verification)
 
 ## 💡 Tips and Best Practices
 
 ### 1. Make Specific Requests
+
 ```
 ❌ "Tell me about project situation"
 ✅ "Check current Sprint 5 progress and next Sprint plan"
 ```
 
 ### 2. Maintain Context
+
 ```
 ❌ Requesting explanations from scratch every time
 ✅ "Continue from previous work"
 ```
 
 ### 3. Step-by-Step Approach
+
 ```
 1st Step: "Understand overall situation" (Story)
 2nd Step: "Understand current work context" (Continuity)
@@ -152,16 +176,19 @@ docs/project-management/
 ## 🔧 Problem Solving
 
 ### When AI Loses Context
+
 ```
 "Read docs/project-management/README.md file and understand current situation"
 ```
 
 ### When Work Connection Breaks
+
 ```
 "Check progress-tracking.md and backlog.md to understand work continuity"
 ```
 
 ### When Priorities Are Unclear
+
 ```
 "Check backlog.md for P0, P1 tasks and determine next work priorities"
 ```

@@ -5,12 +5,15 @@ A context continuity-based project management system for developers collaboratin
 ## Core Concept: 3-Stage Structure
 
 ### Story - What to Build
+
 Overall project direction and goals. Maintains the flow even when tasks change.
 
 ### Continuity - How to Build
+
 Current position and next tasks. Understand task sequence and connections at a glance.
 
 ### Backup - What Has Been Completed
+
 Completed work records. Ensures connectivity to next tasks.
 
 ## Key Features
@@ -73,16 +76,19 @@ your-project/
 ## Document Structure
 
 ### Story
+
 - `backlog.md`: Overall project backlog
 - `sprints/`: Sprint plan documents
 - `stories/`: Individual Story documents
 
 ### Continuity
+
 - `README.md`: Project overview and current status
 - `current-status.md`: System current status
 - `AI_AGENT_QUICK_GUIDE.md`: AI agent quick reference guide
 
 ### Backup
+
 - `progress-tracking.md`: Completed work tracking
 - `backlog.md`: Completion status indication
 
