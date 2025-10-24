@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Workflow Guide - AI와 협업하는 프로젝트 관리</title>
+    <meta name="description" content="AI 에이전트와 협업하는 개발자를 위한 컨텍스트 연속성 기반 프로젝트 관리 시스템">
+    <meta name="keywords" content="ai, workflow, project-management, productivity, agile, scrum">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="AI Workflow Guide">
+    <meta property="og:description" content="AI 에이전트와 협업하는 개발자를 위한 혁신적인 프로젝트 관리 시스템">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://woo7i.github.io/ai-workflow-guide/">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Workflow Guide">
+    <meta name="twitter:description" content="AI 에이전트와 협업하는 개발자를 위한 혁신적인 프로젝트 관리 시스템">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .hero {
+            text-align: center;
+            color: white;
+            padding: 60px 0;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .badge:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: #667eea;
+        }
+        
+        .features {
+            background: white;
+            padding: 80px 0;
+            margin-top: 60px;
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 60px;
+            color: #333;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .feature p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .demo {
+            background: #f8f9fa;
+            padding: 80px 0;
+        }
+        
+        .demo h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #333;
+        }
+        
+        .demo-code {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 30px;
+            border-radius: 10px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 1rem;
+            line-height: 1.6;
+            overflow-x: auto;
+            margin: 30px 0;
+        }
+        
+        .demo-code .comment {
+            color: #68d391;
+        }
+        
+        .demo-code .string {
+            color: #fbb6ce;
+        }
+        
+        .demo-code .keyword {
+            color: #90cdf4;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .footer a {
+            color: #90cdf4;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>🎬 AI Workflow Guide</h1>
+            <p>AI 에이전트와 협업하는 개발자를 위한<br>컨텍스트 연속성 기반 프로젝트 관리 시스템</p>
+            
+            <div class="badges">
+                <span class="badge">🤖 AI 친화적</span>
+                <span class="badge">🎬 영화 제작 방식</span>
+                <span class="badge">📚 완전한 문서화</span>
+                <span class="badge">🚀 즉시 사용 가능</span>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="https://github.com/Woo7i/ai-workflow-guide" class="btn">GitHub에서 보기</a>
+                <a href="https://www.npmjs.com/package/ai-workflow-guide" class="btn btn-secondary">NPM 설치</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="features">
+        <div class="container">
+            <h2>✨ 핵심 기능</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <div class="feature-icon">📋</div>
+                    <h3>Story (스토리)</h3>
+                    <p>전체 프로젝트 방향성과 백로그를 관리하여 AI가 프로젝트의 큰 그림을 이해할 수 있게 합니다.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎬</div>
+                    <h3>Continuity (콘티)</h3>
+                    <p>현재 작업 상태와 다음 작업을 명확히 하여 AI가 맥락을 잃지 않고 작업할 수 있게 합니다.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📚</div>
+                    <h3>Backup (백업)</h3>
+                    <p>완료된 작업 기록을 체계적으로 관리하여 작업 간 연결성을 보장합니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="demo">
+        <div class="container">
+            <h2>🚀 빠른 시작</h2>
+            <div class="demo-code">
+<span class="comment"># 1. 저장소 클론</span>
+git clone https://github.com/Woo7i/ai-workflow-guide.git
+cd ai-workflow-guide
+
+<span class="comment"># 2. 프로젝트에 설치</span>
+./install.sh /path/to/your-project
+
+<span class="comment"># 3. AI 에이전트에게 요청</span>
+<span class="string">"현재 진행상황 및 백로그 분석해줘"</span>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="https://github.com/Woo7i/ai-workflow-guide/blob/main/INSTALLATION.md" class="btn">📖 상세 설치 가이드</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <p>Made with ❤️ by <a href="https://github.com/Woo7i">Woo7i</a></p>
+            <p>MIT License | <a href="https://github.com/Woo7i/ai-workflow-guide/issues">Issues</a> | <a href="https://github.com/Woo7i/ai-workflow-guide/discussions">Discussions</a></p>
+        </div>
+    </div>
+</body>
+</html>

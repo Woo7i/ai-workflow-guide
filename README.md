@@ -1,6 +1,12 @@
 # AI Workflow Guide
 
+[![npm version](https://badge.fury.io/js/ai-workflow-guide.svg)](https://badge.fury.io/js/ai-workflow-guide)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/Woo7i/ai-workflow-guide.svg)](https://github.com/Woo7i/ai-workflow-guide/stargazers)
+
 AI 에이전트와 협업하는 개발자를 위한 컨텍스트 연속성 기반 프로젝트 관리 시스템
+
+> 🎬 **영화 제작 방식**을 차용한 혁신적인 프로젝트 관리 프레임워크
 
 ## 핵심 개념: 3단계 구조
 

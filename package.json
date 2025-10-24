@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/ai-workflow-guide.git"
+    "url": "https://github.com/Woo7i/ai-workflow-guide.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/ai-workflow-guide/issues"
+    "url": "https://github.com/Woo7i/ai-workflow-guide/issues"
   },
-  "homepage": "https://github.com/your-username/ai-workflow-guide#readme",
+  "homepage": "https://github.com/Woo7i/ai-workflow-guide#readme",
   "engines": {
     "node": ">=14.0.0"
   },
