@@ -1,11 +1,11 @@
-# Story [번호]: [Story 제목]
+# Story #3: [Story 제목]
 
-> **Story (스토리)**: 개별 Story 상세 계획
+> **Story (스토리)**: 개별 Story 상세 계획 (영화의 씬과 같은 개념)
 
 ## 🎯 Story 개요
 
 ### Story 정보
-- **Story 번호**: [번호]
+- **Story 번호**: #3 (영화의 씬 번호와 같은 개념)
 - **제목**: [Story 제목]
 - **Epic**: [Epic 제목]
 - **우선순위**: P[0/1/2]
@@ -55,14 +55,14 @@
 ## 🔄 의존성
 
 ### 선행 Story들
-- [ ] Story [번호]: [Story 제목] - [의존 이유]
-- [ ] Story [번호]: [Story 제목] - [의존 이유]
-- [ ] Story [번호]: [Story 제목] - [의존 이유]
+- [ ] Story #1: [Story 제목] - [의존 이유]
+- [ ] Story #2: [Story 제목] - [의존 이유]
+- [ ] Story #4: [Story 제목] - [의존 이유]
 
 ### 후행 Story들
-- [ ] Story [번호]: [Story 제목] - [의존 이유]
-- [ ] Story [번호]: [Story 제목] - [의존 이유]
-- [ ] Story [번호]: [Story 제목] - [의존 이유]
+- [ ] Story #5: [Story 제목] - [의존 이유]
+- [ ] Story #6: [Story 제목] - [의존 이유]
+- [ ] Story #7: [Story 제목] - [의존 이유]
 
 ## 📊 진행 추적
 
@@ -135,14 +135,14 @@
 
 ### Story 계획 프롬프트
 ```
-"Story [번호] 계획 세워줘"
+"Story #3 계획 세워줘"
 "Acceptance Criteria 검토해줘"
 "작업 목록 정리해줘"
 ```
 
 ### Story 진행 추적 프롬프트
 ```
-"Story [번호] 진행 상황 알려줘"
+"Story #3 진행 상황 알려줘"
 "완료 체크리스트 확인해줘"
 "다음 작업 우선순위 정해줘"
 ```
