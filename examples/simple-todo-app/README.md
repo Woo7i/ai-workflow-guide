@@ -104,27 +104,6 @@ simple-todo-app/
 - **진행 중**: 3
 - **대기**: 0
 
-## 🎭 AI 에이전트 페르소나
-
-### 현재 활성화된 페르소나
-
-개발자 (Developer)
-
-### 페르소나별 역할
-
-- **PM**: 전체 방향성 관리 (Story)
-- **PO**: 백로그 관리 (Story + Continuity)
-- **Dev**: 코드 개발 (Continuity + Backup)
-- **QA**: 품질 검증 (Backup)
-
-## 📞 연락처 및 리소스
-
-### 프로젝트 역할
-
-- **PM (Product Manager)**: 제품 전략 및 요구사항 정의
-- **PO (Product Owner)**: 백로그 관리 및 스토리 정의
-- **개발자 (Developer)**: 기능 구현 및 기술적 개발
-- **QA (QA Engineer)**: 품질 검증 및 테스트
 
 ### 외부 리소스
 
