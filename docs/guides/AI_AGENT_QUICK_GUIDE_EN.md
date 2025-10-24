@@ -15,8 +15,7 @@ AI agents quickly understand project context through the **3-stage structure**:
 ### Prompt Examples
 
 ```
-"Check overall project direction"
-"Tell me about backlog status"
+"Analyze current progress and backlog"
 "Plan next Sprint"
 "Understand overall project flow"
 ```
@@ -86,7 +85,7 @@ AI agents quickly understand project context through the **3-stage structure**:
 ### 1. Project Start
 
 ```
-"Understand overall project situation"
+"Analyze current progress and backlog"
 ```
 
 → Check Story + Continuity + Backup overall

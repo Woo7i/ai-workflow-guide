@@ -207,7 +207,7 @@ function updateReadme(projectPath) {
 
 ### 빠른 시작
 
-1. **프로젝트 상황 파악**: "전체 프로젝트 상황 및 백로그 분석해줘"
+1. **프로젝트 상황 파악**: "현재 진행상황 및 백로그 분석해줘"
 2. **현재 작업 확인**: "현재 작업 컨텍스트 파악해줘"
 3. **완료 기록 확인**: "완료된 작업 리뷰해줘"
 
@@ -250,7 +250,7 @@ function printSuccessMessage(projectPath) {
   console.log("   └── .ai-workflow-config");
   console.log("");
   console.log("🚀 다음 단계:");
-  console.log("   1. AI 에이전트에게 '전체 프로젝트 상황 파악해줘' 요청");
+  console.log("   1. AI 에이전트에게 '현재 진행상황 및 백로그 분석해줘' 요청");
   console.log(
     "   2. docs/project-management/backlog.md에서 프로젝트 백로그 작성"
   );

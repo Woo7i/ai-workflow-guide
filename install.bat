@@ -97,7 +97,7 @@ echo 이 프로젝트는 AI Workflow Guide를 사용하여 관리됩니다. >> "
 echo. >> "%PROJECT_PATH%\README.md"
 echo ### 빠른 시작 >> "%PROJECT_PATH%\README.md"
 echo. >> "%PROJECT_PATH%\README.md"
-echo 1. **프로젝트 상황 파악**: "전체 프로젝트 상황 및 백로그 분석해줘" >> "%PROJECT_PATH%\README.md"
+echo 1. **프로젝트 상황 파악**: "현재 진행상황 및 백로그 분석해줘" >> "%PROJECT_PATH%\README.md"
 echo 2. **현재 작업 확인**: "현재 작업 컨텍스트 파악해줘" >> "%PROJECT_PATH%\README.md"
 echo 3. **완료 기록 확인**: "완료된 작업 리뷰해줘" >> "%PROJECT_PATH%\README.md"
 echo. >> "%PROJECT_PATH%\README.md"
@@ -130,7 +130,7 @@ echo    │       └── ...
 echo    └── .ai-workflow-config
 echo.
 echo 🚀 다음 단계:
-echo    1. AI 에이전트에게 '전체 프로젝트 상황 파악해줘' 요청
+echo    1. AI 에이전트에게 '현재 진행상황 및 백로그 분석해줘' 요청
 echo    2. docs\project-management\backlog.md에서 프로젝트 백로그 작성
 echo    3. docs\project-management\current-status.md에서 현재 상태 업데이트
 echo.

@@ -84,7 +84,7 @@ cp -r /path/to/ai-workflow-guide/templates/project-management/* docs/project-man
 
 AI 에이전트에게 다음과 같이 요청하세요:
 
-- **Story 파악**: "전체 프로젝트 방향 확인해줘"
+- **Story 파악**: "현재 진행상황 및 백로그 분석해줘"
 - **Continuity 파악**: "현재 작업 컨텍스트 파악해줘"
 - **Backup 확인**: "완료된 작업 리뷰해줘"
 
