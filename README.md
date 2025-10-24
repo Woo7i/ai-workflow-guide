@@ -33,9 +33,43 @@ AI 에이전트와 협업하는 개발자를 위한 컨텍스트 연속성 기�
 
 자세한 내용은 [INSPIRATION.md](docs/guides/INSPIRATION.md)를 참조하세요.
 
-## 빠른 시작
+## 🚀 빠른 설치
 
-### 1. 프로젝트 설정
+### 방법 1: 설치 스크립트 사용 (권장)
+
+```bash
+# 저장소 클론
+git clone https://github.com/your-username/ai-workflow-guide.git
+cd ai-workflow-guide
+
+# 프로젝트에 설치
+./install.sh /path/to/your-project
+```
+
+### 방법 2: NPM 패키지 (예정)
+
+#### NPM
+
+```bash
+npm install -g ai-workflow-guide
+ai-workflow-install /path/to/your-project
+```
+
+#### Yarn
+
+```bash
+yarn global add ai-workflow-guide
+ai-workflow-install /path/to/your-project
+```
+
+#### PNPM
+
+```bash
+pnpm add -g ai-workflow-guide
+ai-workflow-install /path/to/your-project
+```
+
+### 방법 3: 수동 설치
 
 ```bash
 # 프로젝트 폴더 생성
@@ -106,7 +140,8 @@ MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
 ## 더 알아보기
 
-- [AI 에이전트 빠른 가이드](docs/guides/AI_AGENT_QUICK_GUIDE.md)
-- [영화 제작 방식 차용 설명](docs/guides/INSPIRATION.md)
-- [템플릿](templates/)
-- [예제 프로젝트](examples/)
+- [📖 설치 가이드](INSTALLATION.md) - 상세한 설치 방법
+- [🤖 AI 에이전트 빠른 가이드](docs/guides/AI_AGENT_QUICK_GUIDE.md)
+- [🎬 영화 제작 방식 차용 설명](docs/guides/INSPIRATION.md)
+- [📋 템플릿](templates/)
+- [💡 예제 프로젝트](examples/)

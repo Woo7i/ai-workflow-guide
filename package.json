@@ -1,0 +1,47 @@
+{
+  "name": "ai-workflow-guide",
+  "version": "1.0.0",
+  "description": "AI 에이전트와 협업하는 개발자를 위한 컨텍스트 연속성 기반 프로젝트 관리 시스템",
+  "main": "install.js",
+  "bin": {
+    "ai-workflow-install": "./install.js"
+  },
+  "scripts": {
+    "install": "node install.js",
+    "postinstall": "echo 'AI Workflow Guide가 설치되었습니다. 사용법은 README.md를 참조하세요.'"
+  },
+  "keywords": [
+    "ai",
+    "workflow",
+    "project-management",
+    "agile",
+    "scrum",
+    "ai-agent",
+    "collaboration",
+    "productivity"
+  ],
+  "author": "AI Workflow Guide Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ai-workflow-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/ai-workflow-guide/issues"
+  },
+  "homepage": "https://github.com/your-username/ai-workflow-guide#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "templates/",
+    "docs/guides/",
+    "examples/",
+    "install.js",
+    "install.sh",
+    "install.bat",
+    "README.md",
+    "LICENSE"
+  ],
+  "preferGlobal": true
+}

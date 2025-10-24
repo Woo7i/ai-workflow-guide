@@ -228,14 +228,14 @@ AI agents do not automatically perform quality assurance. Users must explicitly 
 - PM: Business quality
 - User: Usability quality
 
-## 📞 Contact and Resources
+## 📞 Quality Management Resources
 
-### Team Information
+### Role-Based Quality Management
 
-- **PM**: John (Product Manager)
-- **PO**: Sarah (Product Owner)
-- **Dev**: James (Developer)
-- **QA**: Quinn (QA Engineer)
+- **PM (Product Manager)**: Overall quality strategy and business value verification
+- **PO (Product Owner)**: Requirements quality and user satisfaction management
+- **Developer**: Code quality and technical quality management
+- **QA (QA Engineer)**: Function quality and test quality management
 
 ### External Resources
 
@@ -244,20 +244,20 @@ AI agents do not automatically perform quality assurance. Users must explicitly 
 - [Performance Monitoring]
 - [Security Inspection Tools]
 
-## 🔄 Update Cycle
+## 🔄 Update Guide
 
-### Regular Updates
+### Regular Update Schedule
 
 - **Daily**: 09:00
 - **Weekly**: Monday
 - **Monthly**: 1st of each month
 
-### Update Responsible
+### Quality Management Roles
 
-- **Code Quality**: James
-- **Function Quality**: Quinn
-- **Documentation Quality**: Sarah
-- **Overall Quality**: John
+- **Code Quality**: Development team responsible
+- **Function Quality**: QA team responsible
+- **Documentation Quality**: PO team responsible
+- **Overall Quality**: PM team responsible
 
 ---
 

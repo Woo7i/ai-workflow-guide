@@ -127,28 +127,6 @@ docs/project-management/
 └── stories/               # Story - Individual Stories
 ```
 
-## 🎭 AI Agent Persona Utilization
-
-### PM (Product Manager)
-
-- **Activation**: "PRD", "Product Requirements", "Feature Specs", "Roadmap"
-- **Role**: Story-centered work (Overall direction)
-
-### PO (Product Owner)
-
-- **Activation**: "Sprint", "Backlog", "Story", "Acceptance Criteria"
-- **Role**: Story + Continuity work (Plans and current status)
-
-### Dev (Developer)
-
-- **Activation**: "Code", "Implementation", "Development", "API", "Component"
-- **Role**: Continuity + Backup work (Current work and completion records)
-
-### QA (QA Engineer)
-
-- **Activation**: "Test", "Verification", "Quality", "QA", "Review"
-- **Role**: Backup-centered work (Completed work verification)
-
 ## 💡 Tips and Best Practices
 
 ### 1. Make Specific Requests

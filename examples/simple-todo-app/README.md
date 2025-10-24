@@ -108,7 +108,7 @@ simple-todo-app/
 
 ### 현재 활성화된 페르소나
 
-Dev (Developer)
+개발자 (Developer)
 
 ### 페르소나별 역할
 
@@ -119,12 +119,12 @@ Dev (Developer)
 
 ## 📞 연락처 및 리소스
 
-### 팀 정보
+### 프로젝트 역할
 
-- **PM**: John (Product Manager)
-- **PO**: Sarah (Product Owner)
-- **Dev**: James (Developer)
-- **QA**: Quinn (QA Engineer)
+- **PM (Product Manager)**: 제품 전략 및 요구사항 정의
+- **PO (Product Owner)**: 백로그 관리 및 스토리 정의
+- **개발자 (Developer)**: 기능 구현 및 기술적 개발
+- **QA (QA Engineer)**: 품질 검증 및 테스트
 
 ### 외부 리소스
 

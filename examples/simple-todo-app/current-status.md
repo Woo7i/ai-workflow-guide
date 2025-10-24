@@ -60,9 +60,9 @@ Simple Todo App
 
 ### 진행 중인 작업
 
-- [ ] Story 1.1: Todo 아이템 추가 기능 구현 (James)
-- [ ] Story 1.2: Todo 아이템 완료 표시 기능 구현 (James)
-- [ ] Story 1.3: Todo 아이템 삭제 기능 구현 (James)
+- [ ] Story 1.1: Todo 아이템 추가 기능 구현 (개발자)
+- [ ] Story 1.2: Todo 아이템 완료 표시 기능 구현 (개발자)
+- [ ] Story 1.3: Todo 아이템 삭제 기능 구현 (개발자)
 
 ### 완료된 작업
 
@@ -158,12 +158,12 @@ Simple Todo App
 
 ## 📞 연락처 및 리소스
 
-### 팀 정보
+### 프로젝트 역할
 
-- **PM**: John (Product Manager)
-- **PO**: Sarah (Product Owner)
-- **Dev**: James (Developer)
-- **QA**: Quinn (QA Engineer)
+- **PM (Product Manager)**: 제품 전략 및 요구사항 정의
+- **PO (Product Owner)**: 백로그 관리 및 스토리 정의
+- **개발자 (Developer)**: 기능 구현 및 기술적 개발
+- **QA (QA Engineer)**: 품질 검증 및 테스트
 
 ### 외부 리소스
 
@@ -180,11 +180,11 @@ Simple Todo App
 - **주간**: 월요일
 - **월간**: 매월 1일
 
-### 업데이트 담당자
+### 업데이트 담당 역할
 
-- **시스템 상태**: James
-- **성능 지표**: James
-- **기술적 이슈**: James
+- **시스템 상태**: 개발자
+- **성능 지표**: 개발자
+- **기술적 이슈**: 개발자
 
 ---
 
